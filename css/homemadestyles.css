@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #f5f5dc;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0066cc;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #0066cc;
+}
+
+
+.cornerpic {
+    width: 75px; 
+    height: auto;
+    position: absolute;
+    top: 10px;
+}
+
+.leftpic {
+    left: 10px;
+}
+
+.rightpic {
+    right: 10px;
+}
+
+
+.div1 {
+    background-color: #b8b196;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.div2 {
+    background-color: #cc8366;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.div3 {
+    background-color: #8988c0;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+#youtube {
+    text-align: center;
+}
+
+#youtube iframe {
+    display: inline-block;
+    margin: 20px auto; 
+}
+
+#tableau {
+    text-align: center;
+}
+
+#tableau iframe {
+    display: block;
+    margin: 20px auto; 
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0066cc;
+    display: block;
+    margin-top: 10px; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.regular {
+    text-decoration: none;
+    font-weight: normal;
+}
